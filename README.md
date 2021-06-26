@@ -120,6 +120,7 @@ Next, run the following commands in the root directory of this project to comple
 pip install -r requirements.txt
 tools/fix-jupyter.sh
 ```
+Windows では、 `pip install holoviews` が足りない？
 
 If you are using Windows, see the [**Fixing Jupyter Lab on Windows**](#user-content-fixing-jupyter-lab-on-windows) below for an alternative to using `tools/fix-jupyter.sh`.
 
