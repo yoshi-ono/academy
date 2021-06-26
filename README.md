@@ -103,7 +103,7 @@ If you don't use Anaconda, you'll have to install these prerequisites first:
     * Installation instructions are at [python.org](https://www.python.org/downloads/).
     * Windows で仮想環境
         * `py -3.7 -m venv academy`
-        * `.\academy\Scripts\activate`
+        * `.\academy\Scripts\activate` ホームディレクトリからでないとアクティベートできない？
 * Pip: A recent version - consider upgrading if it's not the latest version.
 	* Installation instructions are at [pip.pypa.io](https://pip.pypa.io/en/stable/installing/).
 	* 最新にしておく。 `python -m pip install --upgrade pip`
