@@ -101,12 +101,18 @@ If you don't use Anaconda, you'll have to install these prerequisites first:
 	* See notes above about problems with 3.6 and 3.8. Don't use 3.8, but 3.6 may work for you.
     * The version of Python that comes with your operating system is probably too old. Try `python --version` to see what you have.
     * Installation instructions are at [python.org](https://www.python.org/downloads/).
+    * Windows で仮想環境
+        * `py -3.7 -m venv academy`
+        * `.\academy\Scripts\activate`
 * Pip: A recent version - consider upgrading if it's not the latest version.
 	* Installation instructions are at [pip.pypa.io](https://pip.pypa.io/en/stable/installing/).
+	* 最新にしておく。 `python -m pip install --upgrade pip`
 * Node.js: Required for some of the Jupyter Lab graphics extensions we use.
 	* Installation instructions are [here](https://nodejs.org/en/).
+	* インストールしておく。
 * SWIG: Required for building dependencies.
 	* Use the package manager of  your system (e.g. `apt` on Ubuntu, `brew` on MacOS) to install, or download [here](http://www.swig.org/download.html).
+	* zip をダウンロードして展開 -> path を通す `$ENV:Path = "C:\Users\YOSHIKI\GitHub\academy\swigwin-4.0.2;" + $ENV:Path`
 
 Next, run the following commands in the root directory of this project to complete the setup. First, run the `pip` command to install the rest of the libraries required for these tutorials, including Ray. Then, run the provided script to install a graphing library extension in Jupyter Lab and perform other tasks.
 
