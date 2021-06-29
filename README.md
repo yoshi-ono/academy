@@ -81,9 +81,9 @@ Run the following commands in the root directory of this project. First, use `co
 conda env create -f environment.yml
 ```
 * macOS 10.13
-    * unable to execute 'bazel': No such file or directory </br> https://docs.bazel.build/versions/main/install-os-x.html#install-on-mac-os-x-homebrew
-
-```shell
+    * unable to execute 'bazel': No such file or directory <br> https://docs.bazel.build/versions/main/install-os-x.html#install-on-mac-os-x-homebrew
+        * ERROR: Could not build Bazel
+ERROR: Could not build Bazel```shell
 conda activate anyscale-academy
 tools/fix-jupyter.sh
 ```
